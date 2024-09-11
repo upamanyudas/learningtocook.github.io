@@ -1,0 +1,20 @@
+# Site settings
+title: Learning To Cook
+email: info@daserve.in
+description: A lazy guy forced to cook while living independantly
+baseurl: "https://recipes.daserve.in"
+twitter_username: cloudstudio
+github_username:  cloudstudio
+
+# Build settings
+markdown: kramdown
+
+permalink: /:title:output_ext
+
+collections:
+  components:
+    output: true
+  recipes:
+    output: true
+
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
