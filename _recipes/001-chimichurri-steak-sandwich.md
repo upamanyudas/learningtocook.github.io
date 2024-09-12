@@ -5,10 +5,11 @@ title:  "Chimichurri Steak Sandwich"
 image: chimichurri-steak-sandwich.jpg
 imagecredit: https://flic.kr/p/7HZmzn
 tags: breakfast, sandwich
+date: 2024-09-04
 
 serves: 2 sandwiches
 preptime: 40 mins
-nutrition: 1200 kcal
+nutrition: 1115 kcal
 
 components:
 - Chimichurri
