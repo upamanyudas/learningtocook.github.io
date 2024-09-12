@@ -1,5 +1,7 @@
 
 @import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 
 :root {
   --color-primary: #063e2e;
@@ -16,10 +18,16 @@ button, input, select, textarea {
   font-size: 100%;
 }
 
+/*Start Upa's Added Styles*/
+.scribble-body {
+  font-family: 'Short Stack', cursive;
+}
+
+/*Start Recipe Image on Recipe Page*/
 .recipe-img {
-  background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg);
+  background-image: url(/assets/background-image.svg);
   background-position: 0 0;
-  background-size: cover;
+  background-size: auto;
   border-radius: 20px;
   padding-bottom: 56.25%;
 }
@@ -35,7 +43,9 @@ button, input, select, textarea {
   position: relative;
   overflow: hidden;
 }
+/*End Recipe Image on Recipe Page*/
 
+/*Start Play Button over Recipe Image*/
 .btn-play {
   display: block;
   background: red;
@@ -87,6 +97,38 @@ button, input, select, textarea {
   position: absolute;
   inset: 30% 0% auto;
 }
+/*End Play Button over Recipe Image*/
+
+/*Start Recipe Directions*/
+/*Start Ordered List - Modifying how the numbers look like*/
+ol[itemprop="instructions"] {
+  padding-left: 18px;
+}
+
+ol[itemprop="recipeInstructions"] {
+  list-style: none;
+  padding-left: 18px;
+  counter-reset: listCounter;
+}
+
+ol[itemprop="recipeInstructions"] li {
+  counter-increment: listCounter;
+  margin-left: 9px;
+}
+
+ol[itemprop="recipeInstructions"] > li::before {
+  content: counter(listCounter);
+  font-size: 1rem;
+  font-weight: 700;
+  color: darkred;
+  position: absolute;
+  font-family: 'Short Stack', cursive;
+  margin-left: -28px;
+}
+/*End Ordered List - Modifying how the numbers look like*/
+/*End Recipe Directions*/
+
+/*End Upa's Added Styles*/
 
 img { max-width: 100% }
 svg { max-height: 100% }
@@ -202,13 +244,13 @@ td { vertical-align: top }
 
 
 body {
-  font-family: 'Inter UI', Helvetica, sans-serif;
+  font-family: 'Inter', Helvetica, sans-serif;
   line-height: 1.5;
   font-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter UI', Helvetica, sans-serif;
+  font-family: 'Inter', Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.1;
   margin-top: 1em;

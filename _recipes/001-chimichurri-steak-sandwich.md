@@ -4,7 +4,7 @@ layout: recipe
 title:  "Chimichurri Steak Sandwich"
 image: chimichurri-steak-sandwich.jpg
 imagecredit: https://flic.kr/p/7HZmzn
-tags: breakfast, sandwich
+categories: bread snack
 date: 2024-09-04
 
 serves: 2 sandwiches
