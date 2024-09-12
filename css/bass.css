@@ -11,7 +11,7 @@
   --color-white: #F8F8F8;
 }
 
-body, button { margin: 0 }
+body, button { margin: 0; }
 
 button, input, select, textarea {
   font-family: inherit;
