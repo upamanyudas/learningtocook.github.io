@@ -35,7 +35,7 @@ recipe.init = function(rootNode) {
 recipe.bindAdjuster = function() {
     recipe.rootNode.innerHTML = recipe.rootNode.innerHTML.replace(/(serves )(\d+)/i,
             function(unused_match, serves, quantity) {
-        return serves + '<input type="number" min="0" style="width: 10ch;" inputmode="decimal" value="' + quantity + '" step="' + quantity/4 + '" onchange="recipe.adjustIngredients(this.value/' + quantity + ')"/>'
+        return serves + '<input type="number" min="0" style="font-size: 16px; width: 8ch;" inputmode="decimal" value="' + quantity + '" step="' + quantity/4 + '" onchange="recipe.adjustIngredients(this.value/' + quantity + ')"/>'
     });
 };
 
