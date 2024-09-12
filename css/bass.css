@@ -16,6 +16,78 @@ button, input, select, textarea {
   font-size: 100%;
 }
 
+.recipe-img {
+  background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg);
+  background-position: 0 0;
+  background-size: cover;
+  border-radius: 20px;
+  padding-bottom: 56.25%;
+}
+
+.recipe-img-wrapper {
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-white);
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-left: -20px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-play {
+  display: block;
+  background: red;
+  border-radius: 50% / 10%;
+  color: #FFFFFF;
+  font-size: 2em;
+  height: 3em;
+  margin: 20px auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-indent: 0.1em;
+  transition: all 150ms ease-out;
+  width: 4em;
+}
+
+.btn-play:hover {
+  background: darkred;
+}
+
+.btn-play::after {
+  border-style: solid;
+  border-width: 1em 0 1em 1.732em;
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.75);
+  content: ' ';
+  font-size: 0.75em;
+  height: 0;
+  margin: -1em 0 0 -0.75em;
+  top: 50%;
+  position: absolute;
+  width: 0;
+}
+
+.btn-play::before {
+  background: inherit;
+  border-radius: 5% / 50%;
+  bottom: 9%;
+  content: "";
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: 9%;
+}
+
+.btn-play-wrapper {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  inset: 30% 0% auto;
+}
+
 img { max-width: 100% }
 svg { max-height: 100% }
 
@@ -863,7 +935,7 @@ body {
 }
 
 a {
-  color: var(--color-secondary);
+  color: var(--color-tertiary);
   text-decoration: none;
 }
 
