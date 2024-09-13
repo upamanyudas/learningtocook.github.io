@@ -1,12 +1,12 @@
-# Chowdown
+# Learning to Cook
 
-A simple, plaintext recipe database for hackers
+A simple website for my food adventures. Also serving as a recipe app for the viewers.
 
-[http://chowdown.io](http://chowdown.io)
+Inspired by [Chowdown](https://github.com/clarklab/chowdown)
 
 # Getting Started
 
-This is a Jekyll build. Make sure you have Jekyll [installed](https://jekyllrb.com/). To install, run this command in the terminal (or iTerm, etc):
+This app is built using Jekyll. Make sure you have Jekyll [installed](https://jekyllrb.com/). To install, run this command in the terminal (or iTerm, etc):
 
 ```gem install bundler jekyll```
 
@@ -16,9 +16,9 @@ or to check if you've got it installed already:
 
 Clone or download this repo. Navigate to the folder in terminal (or iTerm, etc), and then run:
 
-```jekyll serve```
+```jekyll serve --baseurl "" --host=0.0.0.0```
 
-With default settings, you should be able to view the site locally at `http://127.0.0.1:4000/`
+With default settings, you should be able to view the site locally at `http://0.0.0.0:4000/`
 
 # Writing a Recipe
 
