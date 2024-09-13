@@ -3,7 +3,6 @@
 layout: recipe
 title:  "Chimichurri Steak Sandwich"
 image: chimichurri-steak-sandwich.jpg
-imagecredit: https://flic.kr/p/7HZmzn
 categories: bread snack
 date: 2024-09-04
 
@@ -23,7 +22,7 @@ ingredients:
 - 1/2 tsp herbs blend
 - 4-5 slices red onions
 - 20 g kewpie mayo
-- 4 tbsp chimichurri
+- 8 tbsp chimichurri
 - 4 slices cheese
 
 directions:
