@@ -3,6 +3,7 @@
 layout: recipe
 title:  "Chimichurri Steak Sandwich"
 image: chimichurri-steak-sandwich.jpg
+videourl: https://youtu.be/lQaGQIXOoTI
 categories: bread snack
 date: 2024-09-04
 
