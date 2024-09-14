@@ -7,7 +7,7 @@ layout: default
   <div class="recipes xs-px1 xs-mt2">
     <div class="clearfix">
     {% assign sorted = site.recipes | sort:"date" %}
-    {% for post in sorted %}
+    {% for post in sorted reversed %}
 
       <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
           <a class="block relative bg-blue" href="{{ post.url | prepend: site.baseurl }}">
@@ -47,19 +47,14 @@ layout: default
     <div class="clearfix white px2">
       <div class="sm-col-6 mx-auto px3 sm-px4">
         <h1>About</h1>
-        <p>Hey folks!</p>
-        <p>My name's Clark and you've just stumbled into <strong>Chowdown</strong>, a plain text recipe database for hackers. Over the years, I've tried dozens of recipe apps and services in an attempt to eat better and get more organized. With each app came a new format and <em>recipe lock-in</em>, neither of which got me excited.</p>
-        <p><strong>Chowdown</strong> is my attempt at fixing recipe app burnout, by moving my recipes out of closed services and into plain text. For example, here's <a href="https://raw.githubusercontent.com/clarklab/chowdown/gh-pages/_recipes/broccoli-cheese-soup.md">a recipe in plain text</a> that I've been working on for a while. It's a broccoli beer cheese soup inspired by Gourmand's, one of my favorite spots in Austin. Crazy delicious.</p>
+        <p>Hey peope!</p>
+        <p>You've just stumbled onto <strong>Learning to Cook</strong>, a recipe database for my learnings. Since I've left my family's nest and started living alone, I've craved the food that was so deliciously crafted by my mother, grandmothers and other women in my immediate and extended family. Over the years, I've collected and noted down some of those recipes from the experts. I've tried to replicate them with varying levels of success. And although I'm still not an intuitive cook - I thought it might be a good idea to share my learnings as I learn.</p>
+        <p><strong>Learning to Cook</strong> is my attempt at documenting this journey. In the process I'm also creating video documents - primarily for my future self.</p>
+        <p>Although the recipes are here to stay, but as I experiment and learn new techniques - I will update the recipes from time to time. This blog is the place to check back on - even though the videos are not updated.</p>
 
-        <p><a href="http://chowdown.io/recipes/broccoli-cheese-soup.html">Here's that same recipe processed with <strong>Chowdown</strong>.</a> It's a simple layout with a photo, ingredient list, and directions.</p>
+        <p>Let's get to the kitchen and learn to cook something new,</p>
 
-        <p>The magic comes behind-the-scenes, with <a href="http://schema.org/Recipe">recipe microdata via schema.org</a>. This process adds special tags around each bit of content, which is what let's other apps (list coming soon) read your recipes. Data portability!</p>
-
-        <p><strong>Chowdown</strong> is definitely a work in progress. Active development is taking place. I'm new to Jekyll. Things might break. The recipes, however, are here to stay.</p>
-
-        <p>Go cook something rad,</p>
-
-        <p>Clark<br/><a href="http://twitter.com/clarklab">@clarklab</a></p>
+        <p>U</p>
       </div>
     </div>
   </div>
