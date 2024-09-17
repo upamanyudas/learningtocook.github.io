@@ -5,6 +5,7 @@ title:  "Chimichurri Steak Sandwich"
 image: chimichurri-steak-sandwich.jpg
 videourl: https://youtu.be/lQaGQIXOoTI
 categories: bread snack
+description: A classic and easy sandwich with chimichurri, caramelised onions and sliced steak
 date: 2024-09-04
 
 serves: 2 sandwiches

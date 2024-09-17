@@ -23,27 +23,6 @@ button, input, select, textarea {
   font-family: 'Short Stack', cursive;
 }
 
-/*Start Recipe Grid Items*/
-.recipe-card {
-  border: 1px solid var(--color-black);
-  background-color: var(--color-white);
-  cursor: pointer;
-  border-radius: 25px;
-  flex-direction: column;
-  flex: 1;
-  margin-right: 0;
-  transition: box-shadow .1s ease-in;
-  display: flex;
-  position: relative;
-  overflow: hidden;
-}
-.recipe-card-img {
-  order: -1;
-  min-height: 210px;
-  position: relative;
-}
-/*End Recipe Grid Items*/
-
 /*Start Recipe Image on Recipe Page*/
 .recipe-img {
   background-image: url(/assets/background-image.svg);
