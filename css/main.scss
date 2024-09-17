@@ -14,7 +14,7 @@ ul{margin:0; padding:0; list-style:none;}
 ul li{  padding:0 0 0 35px; position:relative; margin-top:8px;}
 ul li input{position: absolute; top:5px; left:0; opacity:0.5;}
 
-.bg-blue-tile{background: $color-primary url(../assets/tiles.png); position:relative;}
+.bg-blue-tile{background: $color-primary url(../assets/tile2.png); position:relative;}
 @media all and (min-width:40em){p
 .bg-blue-tile:after{position:absolute; top:0; left:0; right:0; bottom:0; content:" "; box-shadow:inset 0 0 100px 20px $color-secondary; z-index:1; pointer-events:none;}
 }
