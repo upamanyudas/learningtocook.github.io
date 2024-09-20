@@ -33,7 +33,7 @@ layout: default
   <header class="post-header">
     <h1 class="post-title center m1 sm-mt3" itemprop="name">{{ page.title }}</h1>
   </header>
-  <div class="center">by <i class="fa fa-user" aria-hidden="true"></i> {% if page.author %} {{ page.author }} {% else %} Learning to Cook {% endif %} {% if page.date %} on {{ page.date | date: '%B %e, %Y'}}{% endif %} </div>
+  <div class="center">by <i class="fa fa-user" aria-hidden="true"></i> {% if page.author %} {{ page.author }} {% else %} Learning to Cook {% endif %} {% if page.date %} on <i class="fa-solid fa-calendar"></i> {{ page.date | date: '%B %e, %Y'}}{% endif %} </div>
 
   <div class="px2 mt3 clearfix">
     <div class="sm-col-8 center mx-auto" itemprop="description">{{page.content}}</div>
@@ -74,7 +74,7 @@ layout: default
     
     <div class="sm-col sm-col-6 lg-col-6">
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
-      <ol itemprop="recipeInstructions">
+      <ol itemprop="recipeInstructions" class="timer-content">
         {% for direction in page.directions %}
           <li>{{ direction | markdownify }}</li>
         {% endfor %}
@@ -122,7 +122,7 @@ layout: default
       </div>
       
       <h4 class="blue regular xs-center">Steps</h4>
-        <ol itemprop="instructions">
+        <ol itemprop="instructions" class="timer-content">
         {% for item in recipe.directions %}
         <li>{{ item | markdownify }}</li>
         {% endfor %}
@@ -145,7 +145,20 @@ layout: default
 
 </div>
 
+<!-- Container for timers -->
+<div id="timer-container"></div>
+<!-- Sound to play when the timer ends -->
+<audio id="timer-sound" src="https://www.soundjay.com/clock/alarm-clock-01.mp3" preload="auto"></audio>
+
 <script src="{{site.baseurl}}/js/recipe.js"></script>
+<script src="{{site.baseurl}}/js/timer.js"></script>
+<script>
+  // Initialize the timer script
+  window.onload = function() {
+    timer.init(document.querySelector('.timer-content')); // Initialize the timer script
+    timer.requestPermission(); // Request notification permission
+  };
+</script>
 <script>recipe.init(document.querySelector('.recipe'))</script>
 <script>recipe.init(document.querySelector('.recipe-component'))</script>
 <script src="{{site.baseurl}}/js/scale.fix.js"></script>

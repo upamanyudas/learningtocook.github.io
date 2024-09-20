@@ -1,0 +1,53 @@
+/* Style for the clickable time links */
+.time-link {
+  color: blue;
+  cursor: pointer;
+}
+
+/* Container for all timers at the bottom left */
+#timer-container {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 1000;
+}
+
+/* Style for each individual timer */
+.timer-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the cancel button (X) */
+.cancel-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Vertical line separator between timer text and the X button */
+.separator {
+  border-left: 1px solid white;
+  height: 20px;
+  margin-left: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .timer-overlay {
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+}
