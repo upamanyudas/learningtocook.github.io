@@ -45,7 +45,7 @@ layout: default
     <div class="sm-col sm-col-6 lg-col-6">
       <!-- check if it's a component-based recipe -->
       {% if page.components %}
-        <h4 class="blue mt0 mb2 xs-center">Components</h4>
+        <h2 class="blue mt0 mb2 xs-center">Components</h2>
         <ul>
           <!-- list components that make up recipe -->
           {% for component in page.components %}
@@ -60,7 +60,7 @@ layout: default
 
       {% if page.ingredients %}
       <div class="recipe">
-        <h4 class="blue mt0 mb2 xs-cente">Ingredients</h4>
+        <h2 class="blue mt0 mb2 xs-cente">Ingredients</h2>
         {% if page.serves %}<h6>Serves {{ page.serves }}</h6>{% endif %}
         <ul itemprop="ingredients">
           <!-- list ingredients that make up recipe -->
@@ -73,12 +73,39 @@ layout: default
     </div>
     
     <div class="sm-col sm-col-6 lg-col-6">
-      <h4 class="blue mt0 mb2 xs-center">Directions</h4>
+      <h2 class="blue mt0 mb2 xs-center">Directions</h2>
       <ol itemprop="recipeInstructions" class="timer-content">
         {% for direction in page.directions %}
           <li>{{ direction | markdownify }}</li>
         {% endfor %}
       </ol>
+      {% if page.servewith %}
+        <div class="serve-with-list-header">
+          <h2>Serve with</h2>
+        </div>
+        <div class="serve-with-list">
+          <div role="list" class="serve-with-list-2">
+            {% for servewith in page.servewith %}
+            {% for recipe in site.recipes %}
+            {% if recipe.title == servewith %}
+            <div role="listitem" class="serve-with-list-item">
+              <div class="div-block-179">
+                <div class="div-block-178">
+                  <a href="{{ recipe.url | prepend: site.baseurl }}" class="recipe-link w-inline-block">
+                    <h3 class="recipe-card-title">{{recipe.title}}</h3>
+                  </a>
+                </div>
+                <div class="div-block-177">
+                  <a href="{{ recipe.url | prepend: site.baseurl }}" class="w-inline-block"><img src="{{site.baseurl}}/images/{{ recipe.image }}" loading="lazy" alt=""></a>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+          </div>
+        </div>
+      {% endif %}
     </div>
   
   </div>

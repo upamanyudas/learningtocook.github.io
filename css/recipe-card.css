@@ -163,3 +163,45 @@
 .invisible {
   display: none !important;
 }
+
+
+/*Serve with Cards*/
+.serve-with-list {
+  margin-bottom: 2rem;
+}
+
+.serve-with-list-header {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.serve-with-list-2 {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: inline-block;
+}
+
+.serve-with-list-item {
+  grid-column-gap: .5rem;
+  grid-row-gap: 0rem;
+  flex-direction: column-reverse;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  width: 200px;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.div-block-179 {
+  flex-direction: column-reverse;
+  display: flex;
+}
+
+.div-block-177 {
+  border-radius: 10px;
+  overflow: hidden;
+}
