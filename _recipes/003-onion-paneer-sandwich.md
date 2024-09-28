@@ -3,7 +3,7 @@
 layout: recipe
 title:  "Onion Paneer Sandwich"
 image: onion-paneer-sandwich.jpg
-videourl: https://youtu.be/6fojZ00d3fs
+videourl: https://youtu.be/6fojZO0d3fs
 categories: bread snack
 description: A quick and simple sandwich filled with protein goodness!
 date: 2024-09-28

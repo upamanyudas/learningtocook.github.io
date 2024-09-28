@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe with Countdown</title>
+
+  <!-- FontAwesome for the X button icon -->
+  <script defer src="/js/fontawesome.all.min.js"></script>
+
+  <!-- Link to the external JavaScript file -->
+  <script defer src="/js/timer.js"></script>
+
+  <style>
+    /* Style for the clickable time links */
+    .time-link {
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    /* Container for all timers at the bottom left */
+    #timer-container {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      z-index: 1000;
+    }
+
+    /* Style for each individual timer */
+    .timer-overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 8px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Style for the cancel button (X) */
+    .cancel-btn {
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 1.2rem;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    /* Vertical line separator between timer text and the X button */
+    .separator {
+      border-left: 1px solid white;
+      height: 20px;
+      margin-left: 10px;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .timer-overlay {
+        font-size: 0.8rem;
+        padding: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Wrapper div with class for timer content -->
+  <div class="timer-content">
+    <h1>Recipe</h1>
+    <p>Boil water for 10 seconds.</p>
+    <p>Boil water for 5 minutes.</p>
+    <p>Bake the cake for 40 minutes.</p>
+    <p>Rest the dough for 2 hours.</p>
+  </div>
+
+  <!-- Container for timers -->
+  <div id="timer-container"></div>
+
+  <!-- Sound to play when the timer ends -->
+  <audio id="timer-sound" src="https://www.soundjay.com/clock/alarm-clock-01.mp3" preload="auto"></audio>
+
+  <script>
+    // Initialize the timer script
+    window.onload = function() {
+      timer.init(document.querySelector('.timer-content'));
+    };
+  </script>
+
+</body>
+</html>
