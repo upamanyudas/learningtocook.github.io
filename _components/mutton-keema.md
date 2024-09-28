@@ -6,6 +6,9 @@ tags: vegan, meat, mince, keema
 image: mutton-keema.jpg
 # imagecredit:
 
+serves: 2
+preptime: 15 mins
+
 ingredients:
 - 300 g mince (meat or vegan mince)
 - 15 g canola oil
