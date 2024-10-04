@@ -3,10 +3,10 @@
 layout: recipe
 title:  "Chicken Lemonese"
 image: chicken-lemonese.jpg
-videourl:
+videourl: https://youtu.be/U-8erUmUuHU
 categories: chicken
 description: A super quick and yummy weekday lunch or dinner.
-date: 2024-10-05
+date: 2024-10-04
 
 serves: 2
 preptime: 15 mins
@@ -22,16 +22,12 @@ ingredients:
 - 4-8 pcs green chillies
 - 50 g capsicum
 - 50 g coriander
-
 - 1/2 tsp garlic paste
 - 15 g lemon juice
-
 - 1 tbsp soy sauce
-
 - 1 1/2 tsp salt
 - 2 tsp sugar
 - 1/2 tsp ground pepper
-
 - 10 g oil
 
 directions:
