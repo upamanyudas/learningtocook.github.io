@@ -3,29 +3,36 @@ const timer = (function () {
 
   // Function to find times in the text
   function findTimes(text) {
-    const timePattern = /(\d+)\s*(seconds|second|minutes|minute|mins|min|hours|hour|days|day)/gi;
+    const timePattern = /(\d+)\s*(seconds|second|secs|s|minutes|minute|mins|min|m|hours|hour|hrs|hr|h|days|day|d)/gi;
     return text.match(timePattern);
   }
 
   // Convert time string to milliseconds
   function convertToMilliseconds(timeStr) {
-    const [_, value, unit] = timeStr.match(/(\d+)\s*(seconds|second|minutes|minute|mins|min|hours|hour|days|day)/i);
+    const [_, value, unit] = timeStr.match(/(\d+)\s*(seconds|second|secs|s|minutes|minute|mins|min|m|hours|hour|hrs|hr|h|days|day|d)/i);
     const time = parseInt(value, 10);
 
     switch (unit.toLowerCase()) {
       case 'second':
       case 'seconds':
+      case 'secs':
+      case 's':
         return time * 1000;
       case 'minute':
       case 'minutes':
       case 'min':
       case 'mins':
+      case 'm':
         return time * 60 * 1000;
       case 'hour':
       case 'hours':
+      case 'hrs':
+      case 'hr':
+      case 'h':
         return time * 60 * 60 * 1000;
       case 'day':
       case 'days':
+      case 'd':
         return time * 24 * 60 * 60 * 1000;
       default:
         return 0;
@@ -132,7 +139,7 @@ const timer = (function () {
   // Function to scan the content for time strings, convert them into clickable links, and insert links into page
   function makeTimesClickable(contentEl) {
     const bodyText = contentEl.innerHTML;
-    const timePattern = /(\d+)\s*(seconds|second|minutes|minute|mins|min|hours|hour|days|day)/gi;
+    const timePattern = /(\d+)\s*(seconds|second|secs|s|minutes|minute|mins|min|m|hours|hour|hrs|hr|h|days|day|d)/gi;
 
     const newBodyText = bodyText.replace(timePattern, (match) => {
       return `<span class="time-link"><i class="fa-solid fa-stopwatch"></i> ${match}</span>`;
