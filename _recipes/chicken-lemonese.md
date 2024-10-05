@@ -3,7 +3,7 @@
 layout: recipe
 title:  "Chicken Lemonese"
 image: chicken-lemonese.jpg
-videourl: https://youtu.be/U-8erUmUuHU
+videourl: https://youtu.be/wiyedq4wMNg
 categories: chicken
 description: A super quick and yummy weekday lunch or dinner.
 date: 2024-10-04
