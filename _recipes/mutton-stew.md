@@ -6,7 +6,7 @@ image: mutton-stew.jpg
 videourl: https://youtu.be/OeEWjvoSsMQ
 categories: mutton
 description: Super easy one-pot mutton stew perfect for a big Sunday lunch.
-date: 2024-10-12
+date: 2024-10-11
 
 serves: 2
 preptime: 20 mins
@@ -28,10 +28,8 @@ ingredients:
 - 8 pcs peppercorns
 - 1 pcs bay leaves
 - 3 pcs dried red chillies
-
 - 60 g yoghurt
 - 5 tbsp ghee
-
 - 13 g salt
 - 5 g sugar
 
