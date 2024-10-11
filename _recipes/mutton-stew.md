@@ -3,7 +3,7 @@
 layout: recipe
 title:  "Mutton Stew"
 image: mutton-stew.jpg
-videourl: https://youtu.be/OeEWjvoSsMQ
+videourl: https://youtu.be/nu8ZJeqBypo
 categories: mutton
 description: Super easy one-pot mutton stew perfect for a big Sunday lunch.
 date: 2024-10-11
