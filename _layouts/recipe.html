@@ -36,7 +36,7 @@ layout: default
   <div class="center">by <i class="fa fa-user" aria-hidden="true"></i> {% if page.author %} {{ page.author }} {% else %} Learning to Cook {% endif %} {% if page.date %} on <i class="fa-solid fa-calendar"></i> {{ page.date | date: '%B %e, %Y'}}{% endif %} </div>
 
   <div class="px2 mt3 clearfix">
-    <div class="sm-col-8 center mx-auto" itemprop="description">{{page.content}}</div>
+    <div class="sm-col-8 center mx-auto" itemprop="description" style="text-align: justify;">{{page.content}}</div>
   </div>
   
 <!-- call up recipe and directions -->
