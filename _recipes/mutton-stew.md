@@ -3,7 +3,7 @@
 layout: recipe
 title:  "Mutton Stew"
 image: mutton-stew.jpg
-# videourl: https://youtu.be/wiyedq4wMNg
+videourl: https://youtu.be/OeEWjvoSsMQ
 categories: mutton
 description: Super easy one-pot mutton stew perfect for a big Sunday lunch.
 date: 2024-10-12
@@ -13,7 +13,6 @@ preptime: 20 mins
 nutrition: 1700 kcal
 
 servewith:
-# - Rice
 
 components:
 
@@ -62,4 +61,4 @@ directions:
 ---
 
 Growing up in a Bengali household, for me - goat meat was synonymous with mutton. But, since good quality & tender goat meat is very difficult to procure in the west, I refrained from cooking mutton here. After recently discovering a butcher which does stock quality goat meat, in Auckland, I started cooking mutton more often.
-This simple yet superbly delicious stew was whipped up by Ma for our big family after Pujo. Cooking and eating this takes me back to those family lunches. But since this is a huge calorie hit, so I only make this ocassionally. Try cooking the Stew this Pujo, it'll be worth it.
+This simple yet superbly delicious stew was whipped up by Ma for our big family after Pujo. Cooking and eating this takes me back to those family lunches. But since this is a huge calorie hit, so I only make this occassionally. Try cooking the Stew this Pujo, it'll be worth it.
