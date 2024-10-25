@@ -91,12 +91,12 @@ layout: default
             <div role="listitem" class="serve-with-list-item">
               <div class="div-block-179">
                 <div class="div-block-178">
-                  <a href="{{ recipe.url | prepend: site.baseurl }}" class="recipe-link w-inline-block">
+                  <a href="{{ recipe.url | prepend: site.baseurl }}" class="recipe-link w-inline-block" target="_blank">
                     <h3 class="recipe-card-title">{{recipe.title}}</h3>
                   </a>
                 </div>
                 <div class="div-block-177">
-                  <a href="{{ recipe.url | prepend: site.baseurl }}" class="w-inline-block"><img src="{{site.baseurl}}/images/{{ recipe.image }}" loading="lazy" alt=""></a>
+                  <a href="{{ recipe.url | prepend: site.baseurl }}" class="w-inline-block" target="_blank"><img src="{{site.baseurl}}/images/{{ recipe.image }}" loading="lazy" alt=""></a>
                 </div>
               </div>
             </div>

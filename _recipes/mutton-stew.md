@@ -13,6 +13,7 @@ preptime: 20 mins
 nutrition: 1700 kcal
 
 servewith:
+- Egg Fried Rice
 
 components:
 
