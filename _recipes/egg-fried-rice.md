@@ -3,7 +3,7 @@
 layout: recipe
 title:  "Egg Fried Rice"
 image: egg-fried-rice.jpg
-videourl: https://youtu.be/sg0sWMhFfO4
+videourl: https://youtu.be/Z3AOqSo-P8w
 categories: rice
 description: Super quick and versatile one pan fired rice.
 date: 2024-10-25
