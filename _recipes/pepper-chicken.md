@@ -3,7 +3,7 @@
 layout: recipe
 title:  "Pepper Chicken"
 image: pepper-chicken.jpg
-videourl: https://youtu.be/8aVzApXPYE4
+videourl: https://youtu.be/8aVzApXPYE4`````
 categories: chicken
 description: Creamy easy to make chicken from the foothils of Malvan.
 date: 2024-11-01
