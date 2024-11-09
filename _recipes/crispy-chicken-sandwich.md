@@ -3,7 +3,7 @@
 layout: recipe
 title:  "Crispy Chicken Sandwich"
 image: crispy-chicken-sandwich.jpg
-# videourl: https://youtu.be/lQaGQIXOoTI
+videourl: https://youtu.be/QLyOfcqn1qM
 categories: chicken bread snack
 description: Garlic butter and crispy chicken, this is one of the best sandwiches I've ever eaten
 date: 2024-11-08
