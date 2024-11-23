@@ -3,7 +3,7 @@
 layout: recipe
 title:  "Chicken Bengal"
 image: chicken-bengal.jpg
-# videourl: https://youtu.be/wiyedq4wMNg
+videourl: https://youtu.be/8h4I9HuJqXw
 categories: chicken
 description: A classic from my native land, chicken and potatoes for sunday lunch bliss!
 date: 2024-11-23
@@ -64,4 +64,4 @@ directions:
 
 ---
 
-Oh! writing this and cooking this recipe brings back so many memories. This was a typical sunday lunch for us. The fragrances of my mother or grandmother cooking this on a hot sunday afternoon, wafted through the neighborhood like sweet nectar. Most sundays a scrumptuos chicken lunch was followd by a joyous siesta! Enter the blisland and cook this already!
+Oh! writing this and cooking this recipe brings back so many memories. This was a typical sunday lunch for us. The fragrances of my mother or grandmother cooking this on a hot sunday afternoon, wafted through the neighborhood like sweet nectar. Most sundays a scrumptious chicken lunch was followed by a joyous siesta! Enter the blisland and cook this already!
